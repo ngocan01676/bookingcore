@@ -1,6 +1,4 @@
 <?php
-echo 1;
-die;
 if(!empty($_SERVER['REQUEST_URI'])){
 	if(strpos($_SERVER['REQUEST_URI'],'/install') !== false){
 		if(!file_exists(__DIR__.'/../.env')){
